@@ -1,8 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "76+Lqj0ygmbULHpnqCrDFarR72nG/qcb2N8XAVCPYzg9+lEDnZElqnrpiHplBeJCHLuD+A17noys59A0WNYbbw==",
+  "dgSpecHash": "653HbAc6/Ujf3X5xbqk/rCtTaDdtISGp6DF5VIt4mraBRjHlKIyMwdT5AqepuJri9wc+YcXSqXSLY0+Y7PNixw==",
   "success": true,
   "projectFilePath": "/Users/opanc/Documents/trainings/csv/csv/csv.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/opanc/.nuget/packages/csvhelper/30.0.1/csvhelper.30.0.1.nupkg.sha512",
+    "/Users/opanc/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/Users/opanc/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/opanc/.nuget/packages/microsoft.extensions.configuration.fileextensions/8.0.0/microsoft.extensions.configuration.fileextensions.8.0.0.nupkg.sha512",
+    "/Users/opanc/.nuget/packages/microsoft.extensions.configuration.json/8.0.0/microsoft.extensions.configuration.json.8.0.0.nupkg.sha512",
+    "/Users/opanc/.nuget/packages/microsoft.extensions.fileproviders.abstractions/8.0.0/microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "/Users/opanc/.nuget/packages/microsoft.extensions.fileproviders.physical/8.0.0/microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
+    "/Users/opanc/.nuget/packages/microsoft.extensions.filesystemglobbing/8.0.0/microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+    "/Users/opanc/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/opanc/.nuget/packages/system.text.encodings.web/8.0.0/system.text.encodings.web.8.0.0.nupkg.sha512",
+    "/Users/opanc/.nuget/packages/system.text.json/8.0.0/system.text.json.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
