@@ -1,8 +1,8 @@
 using System.Text.Json;
 
-class JSONHelper
+static class JSONHelper
 {
-    public void WriteListToJSON(IEnumerable<Weather> records)
+    public static void WriteListToJSON(List<Weather> records)
     {
         string jsonData = JsonSerializer.Serialize(records);
         File.AppendAllText(ConfigReader.PathToJSON,jsonData);
