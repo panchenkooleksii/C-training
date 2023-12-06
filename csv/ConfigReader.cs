@@ -1,8 +1,8 @@
 using Microsoft.Extensions.Configuration;
-public class ConfigReader
+public static class ConfigReader
 {
-    IConfigurationRoot _builder = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
-    private string ReadConfig(string key) => _builder[key];
-    public string PathToCSV => ReadConfig("PathToCSV");
-     public string PathToJSON => ReadConfig("PathToJSON");
+    static IConfigurationRoot configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build();
+    private static string ReadConfig(string key) => configuration[key];
+    public static string PathToCSV => ReadConfig("PathToCSV");
+    public static string PathToJSON => ReadConfig("PathToJSON");
 }
