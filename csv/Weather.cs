@@ -2,7 +2,7 @@ using CsvHelper.Configuration.Attributes;
 
 class Weather
 {
-    public Weather(string timestamp, string city, string temperatureC, string temperatureF, string summary)
+    public Weather(DateTimeOffset timestamp, string city, int temperatureC, int temperatureF, string summary)
     {
         Timestamp = timestamp;
         City = city;
@@ -11,13 +11,13 @@ class Weather
         Summary = summary;
     }
     [Index(0)]
-    public string? Timestamp { get; set; }
+    public DateTimeOffset? Timestamp { get; set; }
     [Index(1)]
     public string? City { get; set; }
     [Index(2)]
-    public string? TemperatureC { get; set; }
+    public int? TemperatureC { get; set; }
     [Index(3)]
-    public string? TemperatureF { get; set; }
+    public int? TemperatureF { get; set; }
     [Index(4)]
     public string? Summary { get; set; }
 }

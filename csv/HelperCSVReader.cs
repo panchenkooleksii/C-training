@@ -30,7 +30,7 @@ static class HelperCSVReader
             lines.RemoveAt(0);
             lines.ForEach(line=>{
                 var propperties = line.Split(";");
-                records.Add(new Weather(propperties[0], propperties[1],propperties[2],propperties[3],propperties[4]));
+                records.Add(new Weather(DateTimeOffset.Parse(propperties[0]), propperties[1],int.Parse(propperties[2]),int.Parse(propperties[3]),propperties[4]));
             });
         }
         return records;
